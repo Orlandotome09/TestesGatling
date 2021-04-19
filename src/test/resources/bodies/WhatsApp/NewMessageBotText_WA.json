@@ -1,0 +1,21 @@
+{
+  "contacts": [
+    {
+      "profile": {
+        "name": "${name}"
+      },
+      "wa_id": "${wa_id}"
+    }
+  ],
+  "messages": [
+    {
+      "from": "${wa_id}",
+      "id": "${id}",
+      "timestamp": "${timestamp}",
+      "text": {
+        "body": "${body}"
+      },
+      "type": "text"
+    }
+  ]
+}

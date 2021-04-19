@@ -1,0 +1,6 @@
+{
+  "id": "${id}",
+  "to": "postmaster@wa.gw.msging.net",
+  "method": "get",
+  "uri": "${uri}"
+}

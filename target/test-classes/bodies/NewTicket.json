@@ -1,0 +1,8 @@
+{
+  "id": "{{$guid}}",
+  "to": "postmaster@desk.msging.net",
+  "method": "set",
+  "uri": "${uri}",
+  "type": "text/plain",
+  "resource": "I need a human!"
+}

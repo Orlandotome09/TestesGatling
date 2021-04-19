@@ -1,0 +1,33 @@
+{
+  "object": "${object}",
+  "entry": [
+    {
+      "id": "101588988362977",
+      "time": 1583173667623,
+      "messaging": [
+        {
+          "sender": {
+            "id": "${id}"
+          },
+          "recipient": {
+            "id": "101588988362977"
+          },
+          "timestamp": 1583173666767,
+          "message": {
+            "mid": "${mid}",
+            "text": "${text}",
+            "attachments": [
+              {
+                "type": "fallback",
+                "payload": {
+                  "url": "${url}",
+                  "title": "${title}"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

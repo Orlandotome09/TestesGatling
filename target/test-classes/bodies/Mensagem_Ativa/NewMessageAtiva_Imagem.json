@@ -1,0 +1,33 @@
+{
+  "id": "${id}",
+  "to": "${phoneNumber}@wa.gw.msging.net",
+  "type": "application/json",
+  "content": {
+    "type": "template",
+    "hsm": {
+      "namespace": "whatsapp:hsm:messaging:blip",
+      "element_name": "teste_qa_texto",
+      "language": {
+        "policy": "deterministic",
+        "code": "pt_BR"
+      },
+      "components": [
+        {
+          "type": "header",
+          "parameters": [
+            {
+              "type": "image",
+              "image": {
+                "link": "https://file-examples-com.github.io/uploads/2017/10/file_example_JPG_100kB.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "type": "body",
+          "parameters": []
+        }
+      ]
+    }
+  }
+}

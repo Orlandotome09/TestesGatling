@@ -1,0 +1,16 @@
+{
+  "id": "${id}",
+  "to": "${phoneNumber}@wa.gw.msging.net",
+  "type": "application/json",
+  "content": {
+    "type": "hsm",
+    "hsm": {
+      "namespace": "whatsapp:hsm:messaging:blip",
+      "element_name": "teste_qa_texto",
+      "language": {
+        "policy": "deterministic",
+        "code": "pt_BR"
+      }
+    }
+  }
+}
